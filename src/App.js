@@ -1,14 +1,16 @@
 // Import data
+import React from 'react';
+import Gallery from './components/Gallery';
 
 // Import components
 import './App.css';
 
-function App(){
+function App() {
   return (
     <div>
       <h1>craigslist</h1>
       <div className="App">
-        {/* Your content will go here! */}
+        <Gallery />
       </div>
     </div>
   );
